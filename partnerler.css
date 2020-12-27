@@ -41,8 +41,38 @@
   transition: all 0.5s;
 }
 
+/*ORTA KONTENT*/
+
+.mainContent {
+  width: 80%;
+  margin: auto;
+  height: auto;
+  text-align: justify;
+}
+
+.articleName {
+  text-align: center;
+}
+.floatRight {
+  float: right;
+}
+.floatLeft {
+  float: left;
+}
+
+.articleImage {
+  width: 300px;
+  margin: 10px;
+}
+.articleVideo {
+  width: 300px;
+  margin: 10px;
+}
+
 @media (max-width: 900px) {
   .brandLogo img {
     max-width: 70%;
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
   }
 }
