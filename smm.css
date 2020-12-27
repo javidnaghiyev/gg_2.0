@@ -1,0 +1,97 @@
+*{
+    outline: none !important;
+    box-sizing: border-box;
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none !important;
+}
+.navbar{
+    position: relative;
+    margin-bottom: 0;
+}
+.nav-link a{
+    text-decoration: none;
+    color: rgba(255,255,255, 0.8);
+    font-weight: 900;
+    font-size: 16px;
+    font-family: 'Roboto', 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.expand{
+    margin-left: 12px;
+}
+.big-photo{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./images/handshake.png);
+    background-size: contain;
+    position: relative;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.xidmet-content{
+    height: auto;
+    width: 80%;
+    margin: 15px auto;
+    padding: 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.portfolio{
+    height: 300px;
+    width: 80%;
+    padding: 20px;
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.xidmet-kartlari{
+    height: auto;
+    width: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.accordion{
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 0 15px;
+}
+.card-header{
+    min-height: 50px;
+    width: 100%;
+}
+.mb-0{
+    width: 100%;
+    margin: 0;
+}
+.btn{
+    width: 100%;
+    white-space: normal;
+    height: auto;
+}
+.btn-link{
+    color: rgb(255,255,255,0.7);
+    font-weight: 900;
+    font-size: 20px;
+}
+.btn-link:hover{
+    color: white;
+}
+.btn-link:focus{
+    color: white;
+}
+.accordion > div{
+    margin-top: 7px;
+}
+@media(max-width:900px){
+    .xidmet-content{
+        width: 100%;
+    }
+}

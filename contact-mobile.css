@@ -1,0 +1,27 @@
+*{
+    color: white;
+    font-family: 'Roboto', 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.expand-container{
+    flex-direction: column;
+}
+.expand-container *{
+    color: white;
+}
+.social-media{
+    width: 100%;
+}
+.nomre{
+    width: 100%;
+}
+.xidmet-content{
+    width: 90%;
+    border: 1px solid rgba(255,255,255,0.5);
+    border-radius: 10px;
+}
+.first-media{
+    border-bottom: 1px solid rgba(255,255,255,0.5);
+}
+.elaqe-nomre span{
+    font-size: 1em;
+}

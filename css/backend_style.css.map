@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "AEAA,AAAA,CAAC,AAAA,CACG,UAAU,CAAE,UAAU,CACtB,MAAM,CAAE,CAAC,CACT,OAAO,CAAE,CAAC,CACb",
+    "sources": [
+        "../backend/scss/backend_style.scss",
+        "../backend/scss/_config.scss",
+        "../backend/scss/_utilities.scss"
+    ],
+    "names": [],
+    "file": "backend_style.css"
+}
